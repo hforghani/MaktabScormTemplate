@@ -1,0 +1,258 @@
+<?xml version="1.0" ?>
+<manifest identifier="wrJtk4VKTecs1jFEEtA9gLGKLcXk6vAL0B2a3WZM" version="1"
+          xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2"
+          xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd
+                      http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd
+                      http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd">
+    <metadata>
+        <schema>ADL SCORM</schema>
+        <schemaversion>1.2</schemaversion>
+        <adlcp:location>metadata.xml</adlcp:location>
+    </metadata>
+    <organizations default="articulate_rise">
+        <organization identifier="articulate_rise">
+
+            <!--These are all sample content. Replace it with the desired one. -->
+
+            <title>منابع تکمیلی هفته دوم</title>
+
+            <item identifier="id-index" identifierref="ref-index" isvisible="true">
+                <title>صفحه نخست</title>
+            </item>
+
+            <item identifier="i2" isvisible="true">
+                <title>Basic HTML</title>
+
+                <item identifier="i5" identifierref="r5" isvisible="true">
+                    <title>HTML Tutorial - Website Crash Course for Beginners (2021)</title>
+                </item>
+
+                <item identifier="i36" isvisible="true">
+                    <title>HTML Tutorial for Beginners</title>
+
+                    <item identifier="i6" identifierref="r6" isvisible="true">
+                        <title>00 - Introduction to HTML</title>
+                    </item>
+                    <item identifier="i7" identifierref="r7" isvisible="true">
+                        <title>01 - Creating the first web page</title>
+                    </item>
+                    <item identifier="i8" identifierref="r8" isvisible="true">
+                        <title>02 - Line breaks, spacing, and comments</title>
+                    </item>
+                    <item identifier="i9" identifierref="r9" isvisible="true">
+                        <title>03 - Ordered and Unordered lists</title>
+                    </item>
+                    <item identifier="i10" identifierref="r10" isvisible="true">
+                        <title>04 - Creating a table</title>
+                    </item>
+                    <item identifier="i11" identifierref="r11" isvisible="true">
+                        <title>05 - Creating a web link</title>
+                    </item>
+                    <item identifier="i12" identifierref="r12" isvisible="true">
+                        <title>06 - Creating links within same web page</title>
+                    </item>
+                    <item identifier="i13" identifierref="r13" isvisible="true">
+                        <title>07 - Adding an image to a web page</title>
+                    </item>
+                    <item identifier="i14" identifierref="r14" isvisible="true">
+                        <title>08 - Resizing and sizing images</title>
+                    </item>
+                    <item identifier="i15" identifierref="r15" isvisible="true">
+                        <title>09 - Nested elements</title>
+                    </item>
+                    <item identifier="i16" identifierref="r16" isvisible="true">
+                        <title>10 - One-line text box</title>
+                    </item>
+                    <item identifier="i17" identifierref="r17" isvisible="true">
+                        <title>11 - Add label to text box</title>
+                    </item>
+                    <item identifier="i18" identifierref="r18" isvisible="true">
+                        <title>12 - Multi-line text box</title>
+                    </item>
+                    <item identifier="i19" identifierref="r19" isvisible="true">
+                        <title>13 - Radio buttons</title>
+                    </item>
+                    <item identifier="i20" identifierref="r20" isvisible="true">
+                        <title>14 - Checkbox</title>
+                    </item>
+                    <item identifier="i21" identifierref="r21" isvisible="true">
+                        <title>15 - Number input box</title>
+                    </item>
+                    <item identifier="i22" identifierref="r22" isvisible="true">
+                        <title>16 - Drop-down list</title>
+                    </item>
+                    <item identifier="i23" identifierref="r23" isvisible="true">
+                        <title>17 - Date and number box</title>
+                    </item>
+                    <item identifier="i24" identifierref="r24" isvisible="true">
+                        <title>18 - Fieldbox and Legend elements</title>
+                    </item>
+                    <item identifier="i25" identifierref="r25" isvisible="true">
+                        <title>19 - Attributes</title>
+                    </item>
+                    <item identifier="i26" identifierref="r26" isvisible="true">
+                        <title>20 - The meta element</title>
+                    </item>
+                    <item identifier="i27" identifierref="r27" isvisible="true">
+                        <title>21 - Escape characters</title>
+                    </item>
+                    <item identifier="i28" identifierref="r28" isvisible="true">
+                        <title>22 - Bold and italic elements</title>
+                    </item>
+                    <item identifier="i29" identifierref="r29" isvisible="true">
+                        <title>23 - iframe element</title>
+                    </item>
+                    <item identifier="i30" identifierref="r30" isvisible="true">
+                        <title>24 - sup and sub elements</title>
+                    </item>
+                    <item identifier="i31" identifierref="r31" isvisible="true">
+                        <title>25 - Title and alt attributes</title>
+                    </item>
+                    <item identifier="i32" identifierref="r32" isvisible="true">
+                        <title>26 - Audio element</title>
+                    </item>
+                    <item identifier="i33" identifierref="r33" isvisible="true">
+                        <title>27 - Audio element attributes</title>
+                    </item>
+                    <item identifier="i34" identifierref="r34" isvisible="true">
+                        <title>28 - Video element</title>
+                    </item>
+                    <item identifier="i35" identifierref="r35" isvisible="true">
+                        <title>29 - doctype</title>
+                    </item>
+                </item>
+            </item>
+        </organization>
+    </organizations>
+    <resources>
+        <resource identifier="ref-index" type="webcontent" adlcp:scormtype="sco" href="index.html">
+            <file href="index.html"/>
+        </resource>
+        <resource identifier="r5" type="webcontent" adlcp:scormtype="sco"
+                  href="videos/Basic HTML/HTML Tutorial - Website Crash Course for Beginn.html">
+            <file href="videos/Basic HTML/HTML Tutorial - Website Crash Course for Beginn.html"/>
+        </resource>
+        <resource identifier="r6" type="webcontent" adlcp:scormtype="sco"
+                  href="videos/Basic HTML/HTML Tutorial for Beginners - 00 - Introduction.html">
+            <file href="videos/Basic HTML/HTML Tutorial for Beginners - 00 - Introduction.html"/>
+        </resource>
+        <resource identifier="r7" type="webcontent" adlcp:scormtype="sco"
+                  href="videos/Basic HTML/HTML Tutorial for Beginners - 01 - Creating the.html">
+            <file href="videos/Basic HTML/HTML Tutorial for Beginners - 01 - Creating the.html"/>
+        </resource>
+        <resource identifier="r8" type="webcontent" adlcp:scormtype="sco"
+                  href="videos/Basic HTML/HTML Tutorial for Beginners - 02 - Line breaks.html">
+            <file href="videos/Basic HTML/HTML Tutorial for Beginners - 02 - Line breaks.html"/>
+        </resource>
+        <resource identifier="r9" type="webcontent" adlcp:scormtype="sco"
+                  href="videos/Basic HTML/HTML Tutorial for Beginners - 03 - Ordered and.html">
+            <file href="videos/Basic HTML/HTML Tutorial for Beginners - 03 - Ordered and.html"/>
+        </resource>
+        <resource identifier="r10" type="webcontent" adlcp:scormtype="sco"
+                  href="videos/Basic HTML/HTML Tutorial for Beginners - 04 - Creating a t.html">
+            <file href="videos/Basic HTML/HTML Tutorial for Beginners - 04 - Creating a t.html"/>
+        </resource>
+        <resource identifier="r11" type="webcontent" adlcp:scormtype="sco"
+                  href="videos/Basic HTML/HTML Tutorial for Beginners - 05 - Creating a w.html">
+            <file href="videos/Basic HTML/HTML Tutorial for Beginners - 05 - Creating a w.html"/>
+        </resource>
+        <resource identifier="r12" type="webcontent" adlcp:scormtype="sco"
+                  href="videos/Basic HTML/HTML Tutorial for Beginners - 06 - Creating lin.html">
+            <file href="videos/Basic HTML/HTML Tutorial for Beginners - 06 - Creating lin.html"/>
+        </resource>
+        <resource identifier="r13" type="webcontent" adlcp:scormtype="sco"
+                  href="videos/Basic HTML/HTML Tutorial for Beginners - 07 - Adding a ima.html">
+            <file href="videos/Basic HTML/HTML Tutorial for Beginners - 07 - Adding a ima.html"/>
+        </resource>
+        <resource identifier="r14" type="webcontent" adlcp:scormtype="sco"
+                  href="videos/Basic HTML/HTML Tutorial for Beginners - 08 - Resizing and.html">
+            <file href="videos/Basic HTML/HTML Tutorial for Beginners - 08 - Resizing and.html"/>
+        </resource>
+        <resource identifier="r15" type="webcontent" adlcp:scormtype="sco"
+                  href="videos/Basic HTML/HTML Tutorial for Beginners - 09 - Nested eleme.html">
+            <file href="videos/Basic HTML/HTML Tutorial for Beginners - 09 - Nested eleme.html"/>
+        </resource>
+        <resource identifier="r16" type="webcontent" adlcp:scormtype="sco"
+                  href="videos/Basic HTML/HTML Tutorial for Beginners - 10 - One-line tex.html">
+            <file href="videos/Basic HTML/HTML Tutorial for Beginners - 10 - One-line tex.html"/>
+        </resource>
+        <resource identifier="r17" type="webcontent" adlcp:scormtype="sco"
+                  href="videos/Basic HTML/HTML Tutorial for Beginners - 11 - Add label to.html">
+            <file href="videos/Basic HTML/HTML Tutorial for Beginners - 11 - Add label to.html"/>
+        </resource>
+        <resource identifier="r18" type="webcontent" adlcp:scormtype="sco"
+                  href="videos/Basic HTML/HTML Tutorial for Beginners - 12 - Multi-line t.html">
+            <file href="videos/Basic HTML/HTML Tutorial for Beginners - 12 - Multi-line t.html"/>
+        </resource>
+        <resource identifier="r19" type="webcontent" adlcp:scormtype="sco"
+                  href="videos/Basic HTML/HTML Tutorial for Beginners - 13 - Radio button.html">
+            <file href="videos/Basic HTML/HTML Tutorial for Beginners - 13 - Radio button.html"/>
+        </resource>
+        <resource identifier="r20" type="webcontent" adlcp:scormtype="sco"
+                  href="videos/Basic HTML/HTML Tutorial for Beginners - 14 - Checkbox-(72.html">
+            <file href="videos/Basic HTML/HTML Tutorial for Beginners - 14 - Checkbox-(72.html"/>
+        </resource>
+        <resource identifier="r21" type="webcontent" adlcp:scormtype="sco"
+                  href="videos/Basic HTML/HTML Tutorial for Beginners - 15 - Number input.html">
+            <file href="videos/Basic HTML/HTML Tutorial for Beginners - 15 - Number input.html"/>
+        </resource>
+        <resource identifier="r22" type="webcontent" adlcp:scormtype="sco"
+                  href="videos/Basic HTML/HTML Tutorial for Beginners - 16 - Drop-down li.html">
+            <file href="videos/Basic HTML/HTML Tutorial for Beginners - 16 - Drop-down li.html"/>
+        </resource>
+        <resource identifier="r23" type="webcontent" adlcp:scormtype="sco"
+                  href="videos/Basic HTML/HTML Tutorial for Beginners - 17 - Date and num.html">
+            <file href="videos/Basic HTML/HTML Tutorial for Beginners - 17 - Date and num.html"/>
+        </resource>
+        <resource identifier="r24" type="webcontent" adlcp:scormtype="sco"
+                  href="videos/Basic HTML/HTML Tutorial for Beginners - 18 - Fieldbox and.html">
+            <file href="videos/Basic HTML/HTML Tutorial for Beginners - 18 - Fieldbox and.html"/>
+        </resource>
+        <resource identifier="r25" type="webcontent" adlcp:scormtype="sco"
+                  href="videos/Basic HTML/HTML Tutorial for Beginners - 19 - Attributes.html">
+            <file href="videos/Basic HTML/HTML Tutorial for Beginners - 19 - Attributes.html"/>
+        </resource>
+        <resource identifier="r26" type="webcontent" adlcp:scormtype="sco"
+                  href="videos/Basic HTML/HTML Tutorial for Beginners - 20 - The meta ele.html">
+            <file href="videos/Basic HTML/HTML Tutorial for Beginners - 20 - The meta ele.html"/>
+        </resource>
+        <resource identifier="r27" type="webcontent" adlcp:scormtype="sco"
+                  href="videos/Basic HTML/HTML Tutorial for Beginners - 21 - Escape chara.html">
+            <file href="videos/Basic HTML/HTML Tutorial for Beginners - 21 - Escape chara.html"/>
+        </resource>
+        <resource identifier="r28" type="webcontent" adlcp:scormtype="sco"
+                  href="videos/Basic HTML/HTML Tutorial for Beginners - 22 - Bold and ita.html">
+            <file href="videos/Basic HTML/HTML Tutorial for Beginners - 22 - Bold and ita.html"/>
+        </resource>
+        <resource identifier="r29" type="webcontent" adlcp:scormtype="sco"
+                  href="videos/Basic HTML/HTML Tutorial for Beginners - 23 - iframe eleme.html">
+            <file href="videos/Basic HTML/HTML Tutorial for Beginners - 23 - iframe eleme.html"/>
+        </resource>
+        <resource identifier="r30" type="webcontent" adlcp:scormtype="sco"
+                  href="videos/Basic HTML/HTML Tutorial for Beginners - 24 - sup and sub.html">
+            <file href="videos/Basic HTML/HTML Tutorial for Beginners - 24 - sup and sub.html"/>
+        </resource>
+        <resource identifier="r31" type="webcontent" adlcp:scormtype="sco"
+                  href="videos/Basic HTML/HTML Tutorial for Beginners - 25 - Title and al.html">
+            <file href="videos/Basic HTML/HTML Tutorial for Beginners - 25 - Title and al.html"/>
+        </resource>
+        <resource identifier="r32" type="webcontent" adlcp:scormtype="sco"
+                  href="videos/Basic HTML/HTML Tutorial for Beginners - 26 - Audio elemen.html">
+            <file href="videos/Basic HTML/HTML Tutorial for Beginners - 26 - Audio elemen.html"/>
+        </resource>
+        <resource identifier="r33" type="webcontent" adlcp:scormtype="sco"
+                  href="videos/Basic HTML/HTML Tutorial for Beginners - 27 - Audio elemen.html">
+            <file href="videos/Basic HTML/HTML Tutorial for Beginners - 27 - Audio elemen.html"/>
+        </resource>
+        <resource identifier="r34" type="webcontent" adlcp:scormtype="sco"
+                  href="videos/Basic HTML/HTML Tutorial for Beginners - 28 - Video elemen.html">
+            <file href="videos/Basic HTML/HTML Tutorial for Beginners - 28 - Video elemen.html"/>
+        </resource>
+        <resource identifier="r35" type="webcontent" adlcp:scormtype="sco"
+                  href="videos/Basic HTML/HTML Tutorial for Beginners - 29 - doctype-(720.html">
+            <file href="videos/Basic HTML/HTML Tutorial for Beginners - 29 - doctype-(720.html"/>
+        </resource>
+    </resources>
+</manifest>
