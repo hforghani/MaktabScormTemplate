@@ -4,47 +4,84 @@
     <style>
         body {
             direction: rtl;
-            font-family: vazirmatn;
+            font-family: 'Vazir', 'yekan', Tahoma, sans-serif;
         }
+        * {
+          box-sizing: border-box;
+        }
+        .float {
+            float: right;
+        }
+        .container::after {
+          content: "";
+          clear: both;
+          display: table;
+        }
+        .content {
+            background-color: #d1eeff;
+            border-radius: 1rem;
+            padding: 1rem;
+        }
+        .note {
+            background-color: #ffead1;
+            border-radius: 1rem;
+            padding: 1rem;
+        }
+
     </style>
 </head>
 
 <body>
-<h1>منابع تکمیلی</h1>
 
 <!--These are all sample content. Replace it with the desired one. -->
 
-<ul>
-    <li>
-        شبکه و اینترنت
-        <ul>
-            <li><a href="https://www.youtube.com/watch?v=x3c1ih2NJEg">How does the INTERNET work? | GICT #2</a></li>
-            <li><a href="https://www.youtube.com/watch?v=Wj0od2ag5sk">DNS and How does it work?</a></li>
-        </ul>
-    </li>
-    <li>
-        Basic HTML
+<div class="container">
+
+    <div class="float" style="width:70%">
+        <div class="content">
+            <ul>
+                <li>
+                    شبکه و اینترنت
+                    <ul>
+                        <li><a href="https://www.youtube.com/watch?v=x3c1ih2NJEg">How does the INTERNET work? | GICT
+                            #2</a></li>
+                        <li><a href="https://www.youtube.com/watch?v=Wj0od2ag5sk">DNS and How does it work?</a></li>
+                    </ul>
+                </li>
+                <li>
+                    Basic HTML
+                    <ul>
+                        <li><a href="https://www.youtube.com/watch?v=916GWv2Qs08">HTML Tutorial - Website Crash Course
+                            for Beginners
+                            (2021)</a></li>
+                        <li>
+                            <a href="https://www.youtube.com/watch?v=dD2EISBDjWM&list=PLr6-GrHUlVf_ZNmuQSXdS197Oyr1L9sPB&index=1">HTML
+                                Tutorial for Beginners - 00 - Introduction to HTML</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
         <br>
-        مباحث منابع اصلی معیار است. مباحثی که در منابع اصلی گفته نشده فعلا نیاز به مطالعه ندارد.
-        <ul>
-            <li><a href="https://www.youtube.com/watch?v=916GWv2Qs08">HTML Tutorial - Website Crash Course for Beginners
-                (2021)</a></li>
-            <li><a href="https://www.youtube.com/watch?v=dD2EISBDjWM&list=PLr6-GrHUlVf_ZNmuQSXdS197Oyr1L9sPB&index=1">HTML
-                Tutorial for Beginners - 00 - Introduction to HTML</a></li>
-        </ul>
-    </li>
-</ul>
+        <div class="note">
 
-<p>
-    با کلیک روی فهرست سمت چپ، می‌توانید منابع را از سرور مکتب بخوانید و همچنین ویدئوها را از سرور مکتب تماشا - یا دانلود - کنید. برای ویدئوها از نام کاربری و رمز عبور زیر استفاده کنید.
-</p>
+            <p>
+                با کلیک روی فهرست سمت چپ، می‌توانید منابع را از سرور مکتب بخوانید و همچنین ویدئوها را از سرور مکتب تماشا
+                - یا دانلود - کنید. برای ویدئوها از نام کاربری و رمز عبور زیر استفاده کنید.
+            </p>
 
-<p style="direction:ltr">
-👨🏻‍💻User:<br>
-username<br>
-🔐Pass:<br>
-password
-</p>
+            <p style="direction:ltr">
+                👨🏻‍💻User:<br>
+                username<br>
+                🔐Pass:<br>
+                password
+            </p>
+        </div>
+    </div>
+    <div class="float" style="width:30%">
+        <img src="images/pngfind.com-stack-of-books-png-50044.png" width="100%">
+    </div>
+
+</div>
 
 </body>
 </html>
