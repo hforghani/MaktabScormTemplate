@@ -8,11 +8,11 @@ def main():
         if os.path.isfile(fname) and fname.endswith('.srt'):
             new_fname = fname[:-3] + 'vtt'
             if not os.path.exists(new_fname):
-                with open(fname) as f:
+                with open(fname, encoding='utf8') as f:
                     content = f.read()
                 new_content = 'WEBVTT\n\n' + content.replace(',', '.')
                 os.renames(fname, new_fname)
-                with open(new_fname, 'w') as f:
+                with open(new_fname, 'w', encoding='utf8') as f:
                     f.write(new_content)
                 print(f'File converted: {fname}')
                 num += 1
